@@ -40,7 +40,7 @@ spec:
 
   workspaces:
 
-  - name: source
+  - name: nishitha5678-dev
 
   params:
 
@@ -100,7 +100,7 @@ spec:
 
       image: $(params.image)
 
-      workingDir: $(workspaces.source.path)
+      workingDir: $(workspaces.nishitha5678-dev.path)
 
       command: ["terraform"]
 
@@ -126,7 +126,7 @@ spec:
 
       image: $(params.image)
 
-      workingDir: /workspace/source
+      workingDir: /workspace/nishitha5678-dev
 
       command: ["terraform"]
 
