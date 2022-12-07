@@ -10,7 +10,7 @@ spec:
 
   workspaces:
 
-  - name: source
+  - name: nishitha5678-dev
 
   tasks:
 
@@ -22,9 +22,9 @@ spec:
 
     workspaces:
 
-    - name: source
+    - name: nishitha5678-dev
 
-      workspace: source
+      workspace: nishitha5678-dev
 
     params:
 
