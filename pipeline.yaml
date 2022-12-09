@@ -10,7 +10,7 @@ spec:
 
   workspaces:
 
-  - name: nishitha5678-dev
+  - name: default
 
   tasks:
 
@@ -22,9 +22,9 @@ spec:
 
     workspaces:
 
-    - name: nishitha5678-dev
+    - name: default
 
-      workspace: nishitha5678-dev
+      workspace: default
 
     params:
 
