@@ -45,7 +45,7 @@ spec:
 
   workspaces:
 
-    - name: nishitha5678-dev
+    - name: default
 
       description: The git repo will be cloned onto the volume backing this Workspace.
 
@@ -301,7 +301,7 @@ spec:
 
       - name: WORKSPACE_OUTPUT_PATH
 
-        value: $(workspaces.nishitha5678-dev.path)
+        value: $(workspaces.default.path)
 
       - name: WORKSPACE_SSH_DIRECTORY_BOUND
 
